@@ -13,7 +13,8 @@ Berbeda dengan komputer dekstop, laptop dilengkapi baterai yang memungkinkan ia 
 
 Di Indonesia sendiri, terdapat beragam merk laptop yang beredar, mulai dari Asus, apple, acer, lenovo, hp, dell yang memiliki kekurangan dan kelebihan masing-masing.
 
-Adapun spesifikasi laptop yang saya miliki laptop. Spesifikasi tersebut sebagai berikut
+Adapun spesifikasi laptop yang saya miliki. Spesifikasi tersebut sebagai berikut
+![Logo ArtiVisi](https://p1-ofp.static.pub/medias/bWFzdGVyfGltYWdlc3w0OTI0OXxpbWFnZS9qcGVnfGltYWdlcy9oYzYvaGVkLzk0NDQ3NjU5MjU0MDYuanBnfGFmZTY0MmZmZTRmZWM2YmFjNDQ2MGVmNTc1MTU0NmM1MmRhM2UzMTliZDRlYTM1ZGFkZmZmN2VjZmU4NDJlNzI/lenovo-laptop-thinkpad-x260-front-side-2.jpg)
 * Layar 12,5 inci (IPS Full HD 1920x1080) anti-glare, 200 nits, 300:1 contrast ratio, tidak ada model touchscreen.
 * CPU Intel Skylake gen-6, dual core-U, 15W TDP (hemat daya)
 * GPU Intel HD Graphic 520 (onboard)
