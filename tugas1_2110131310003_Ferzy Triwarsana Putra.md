@@ -1,6 +1,6 @@
 # 1. Berikut benda-benda yang ada pada PC/Laptop
 ## PC/Laptop secara umum 
-
+a
 Laptop menjadi perangkat yang sangat membantu pekerjaan manusia. Berbagai macam fungsi yang dimilikinya memudahkan urusan banyak orang, terutama para pelajar, dosen, mahasiswa, pekerja kantoran, freelancer dan lainnya. 
 
 Laptop sering disebut sebagai komputer jinjing. Ini tidak lepas dari fisiknya yang dapat dibawa ke mana-mana. Bentuknya yang  kecil lebih lebih flexible dan efektif digunakan dibandingkan dengan komputer dekstop yang memakan ruang dan daya listrik.
