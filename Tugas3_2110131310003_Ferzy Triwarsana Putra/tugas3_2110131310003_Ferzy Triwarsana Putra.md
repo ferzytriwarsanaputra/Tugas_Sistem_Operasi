@@ -28,6 +28,56 @@ Proses adalah keadaan ketika sebuah program sedang dieksekusi. Sebuah proses mem
 * Menyediakan mekanisme untuk proses komunikasi
 * Menyediakan mekanisme untuk penanganan deadblock
 
+Contoh Manajemen Proses pada linux:
+1. Perintah "top"
+<p align="justify">
+“top” adalah aplikasi di Linux yang dijalankan melalui Terminal di Linux. Aplikasi ini digunakan untuk memanajemen proses Linux tanpa menggunakan GUI. Saat dieksekusi, aplikasi ini akan menampilkan daftar semua proses yang sedang berjalan dan setiap detik akan diperbaharui. Proses yang ditampilkan pada perintah “top” adalah yang paling besar menggunakan sumber daya.
+
+Tampilan perintah “top” dapat Anda lihat pada gambar di bawah ini:
+<p align="center"><img src="tugas3/1.PNG" alt="perintah top" width="500px">
+
+        Tampilan informasi proses menggunakan “top”.
+
+Berikut ini beberapa keyboard shortcut yang dapat Anda gunakan untuk navigasi:
+
+* keyboard shortcut "h" atau "?" berfungsi untuk Menampilkan jendela bantuan.
+<p align="center"><img src="tugas3/2.PNG" alt="shortcut keyboard h atau ?" width="500px">
+
+        Tampilan ketika menekan keyboard shortcut "h" atau "?"
+
+* keyboard shortcut "f" berfungsi untuk Menghapus atau menambahkan field di layout.
+<p align="center"><img src="tugas3/3.PNG" alt="shortcut keyboard f" width="500px">
+
+        Tampilan ketika menekan keyboard shortcut "f"
+
+* keyboard shortcut "l" berfungsi untuk Menampilkan atau menghilangkan tampilan informasi beban rata-rata dan informasi uptime.
+<p align="center"><img src="tugas3/4.PNG" alt="shortcut keyboard l" width="500px">
+
+        Tampilan ketika menekan keyboard shortcut "l"
+
+* keyboard shortcut "m" berfungsi untuk Menampilkan atau menghilangkan tampilan informasi memori.
+<p align="center"><img src="tugas3/5.PNG" alt="shortcut keyboard m" width="500px">
+
+        Tampilan ketika menekan keyboard shortcut "m"
+
+* keyboard shortcut "space" berfungsi untuk Digunakan untuk memperbaharui tampilan atau me-refresh tampilan dengan data terbaru tanpa menunggu waktu refresh.
+<p align="center"><img src="tugas3/6.PNG" alt="shortcut keyboard space" width="500px">
+
+        Tampilan ketika menekan keyboard shortcut "space"
+
+<p align="justify">
+Saat menjalankan perintah “top”, Anda dapat menggunakan beberapa opsi tampilan yang ingin ditampilkan. seperti dibawah ini.
+
+Tampilan perintah “top -h” dapat Anda lihat pada gambar di bawah ini:
+<p align="center"><img src="tugas3/7.PNG" alt="perintah top -h" width="500px">
+
+        Tampilan informasi proses menggunakan “top -h”.
+
+Tampilan perintah “top -H” dapat Anda lihat pada gambar di bawah ini:
+<p align="center"><img src="tugas3/8.PNG" alt="perintah top -H" width="500px">
+
+        Tampilan informasi proses menggunakan “top -H”.
+
 ### Manajemen Memori Utama
 <p align="justify">
 Memori utama atau lebih dikenal sebagai RAM memori adalah sebuah array yang besar dari word atau byte, yang ukurannya mencapai ratusan, ribuan, atau bahkan jutaa. Setiap word atau byte mempunyai alamat tersendiri. Memori Utama berfungsi sebagai tempat penyimpanan yang akses datanya digunakan oleh CPU atau perangkat I/O. Memori utama termasuk tempat penyimpanan data yang sementara (volatile), artinya data akan hilang begitu sistem komputer dimatikan. Dalam hal manajemen memori, sistem operasi bertanggung jawab atas aktifitas-aktifitas yang berkaitan dengan manajemen memori seperti:
@@ -35,6 +85,18 @@ Memori utama atau lebih dikenal sebagai RAM memori adalah sebuah array yang besa
 * Melacak bagian utama dari memori yang sedang digunakan & oleh siapa.
 * Memutuskan proses-proses mana yang di-load ke ruang memori saat tersedia.
 * Alokasi & dealokasi ruan memori.
+
+Contoh Manajemen Memori Utama pada linux:
+1. VmStat (Virtual Memory Statistics)
+VmStat merupakan perintah pada Linux yang berfungsi untuk menampilkan penggunaan memori, swap, memberikan informasi interrupt system, kecepatan I/O, statistik CPU secara real time, dan proses apa saja yang sedang berjalan. 
+
+Untuk mengaksesnya ketikkan command dibawah ini pada Terminal:
+vmstat
+
+Berikut tampilannya jika telah menjalankan command vmstat:
+<p align="center"><img src="tugas3/15.PNG" alt="perintah top -H" width="500px">
+
+        Contoh tampilan vmstat
 
 ### Manajemen Memori Sekunder
 <p align="justify">
@@ -53,6 +115,41 @@ File adalah kumpulan informasi yang berhubungan sesuai dengan tujuan pembuat fil
 * Mendukung primitif-primitif manipulasi file dan direktori,
 * Pemetaan file dalam secondnary storage,
 * Backup file dalam media yang stabil (non-volatile).
+
+Contoh Manajemen File pada linux:
+1. mkdir
+Gunakan command mkdir ketika Anda perlu membuat folder atau directory. Misalnya, Anda ingin membuat sebuah directory dengan nama “Baru”, maka Anda tinggal memasukkan command “mkdir Baru”.
+<p align="center"><img src="tugas3/9.PNG" alt="mkdir" width="500px">
+
+        contoh pembuatan folder
+
+2. cd
+Gunakan command “cd” untuk masuk ke sebuah directory. Misalnya, jika Anda sedang ada di folder home dan Anda ingin masuk ke folder yang baru saja dibuat yaitu SO, Anda bisa memasukkan command “cd SO”.
+<p align="center"><img src="tugas3/10.PNG" alt="cd" width="200px">
+
+        contoh masuk ke directory atau folder
+
+3. touch
+touch digunakan untuk membuat file baru. Ini bisa berupa apa saja, mulai dari txt file kosong atau file zip kosong. Misalnya Anda ingin membuat file text baru, Anda tinggal masukkan “touch tugas3.txt”.
+<p align="center"><img src="tugas3/11.PNG" alt="touch" width="300px">
+
+        contoh membuat file
+
+4. mv
+mv digunakan untuk memindahkan files. Anda juga bisa menggunakan perintah dasar ini untuk mengganti nama sebuah file. Misalnya, Anda ingin mengganti nama sebuah file dari “baru” menjadi “lama”. Maka Anda tinggal memasukkan command “mv tugas3 tugas”.
+<p align="center"><img src="tugas3/12.PNG" alt="mv" width="350px">
+
+        contoh mengganti nama file
+
+5. rm
+Command rm adalah perintah dasar linux yang digunakan untuk menghapus direktori dan file. Jadi misalnya Anda ingin menghapus file yang bernama “tugas.txt”, Anda tinggal masukkan command “rm tugas.txt”. Tetapi perintah dasar ini tidak bisa sembarangan menghapus direktori. Gunakan rm -r untuk menghapus direktori. Ini akan menghapus direktori dan isinya.
+<p align="center"><img src="tugas3/13.PNG" alt="rm" width="300px">
+
+        contoh menghapus file
+
+<p align="center"><img src="tugas3/14.PNG" alt="rm" width="400px">
+
+        contoh menghapus folder
 
 ### Manajemen Input Output
 <p align="justify">
@@ -134,3 +231,107 @@ Sistem call menyediakan penghubung (interface) antara proses menjalankan program
 * Kembali ke posisi dipanggil
 * Masuk ke increment SP
 * Increment SP
+
+Coba perhatikan gambar dibawah ini bagaimana sistem call membaca:
+
+<p align="center"><img src="gambar/1.jpg" alt="Gambar Langkah-langkah Sistem Call" width="500px">
+
+        Gambar Langkah-langkah Sistem Call
+
+Tiga metode umum yang digunakan sebagai pass parameters antara program yang sedang dijalankan dengan sistem operasi:
+* Pass Parameter dalam register
+* Menyimpan parameter tersebut ke sebuah tabel didalam memori, dan alamat tabel dikenali sebagai sebuah parameter dalam register
+* Push (penyimpanan) parameter ke antrian (stack) oleh program, dan diambil kembali dari antrian (pop off) oleh sistem operasi.
+
+<p align="center"><img src="gambar/2.jpg" alt="Gambar Mengenali Parameter sebagai Teble" width="500px">
+
+        Gambar Mengenali Parameter sebagai Teble
+
+Pada dasarnya sistem call dapat dikelompokan dalam 5 kategori sebagai berikut:
+* Kontrol proses
+* Manipulasi File
+* Manipulasi device
+* Informasi Lingkungan
+* Komunikasi
+
+### Kontrol Proses
+Hal-hal yang dilakukan diantaranya adalah:
+* Mengakhiri (end) dan membatalkan
+* Mengambil (load) dan eksekusi (execute)
+* Membuat dan mengakhiri proses-proses
+* Menentukan dan menggeser atribut proses
+* Wait for Time
+* Wait event, signal event
+* Mengalokasikan dan membebaskan memori
+
+<p align="justify">
+Misalnya: Sistem Operasi pada MS-DOS menggunakan sistem singletasking yang memiliki command interpreter yang akan bekerja pada saat start. Karena singletasking, maka akan menggunakan metode yang sederhana untuk menjalankan program dan tidak akan membuat proses baru. Sistem operasi UNIX dapat menjalankan banyak program dan tidak membuat proses baru.
+
+Contoh sebuah eksekusi program pada MS-DOS
+
+A:\ Type file 1. text prn -> maksudnya cetak isi dari a:\file1.text ke printer, Komponen-komponen yang terlibat dalam program ini adalah:
+* CPU
+* Memory
+* Keyboard
+* Printer
+* Disk
+
+Pelaksanaan:
+* Call Command interpreter untuk menenrjemahkan atau mengartikan perintah yang diketik,
+* Call terhadap memory management untuk memeriksa apakah perintah > ada dalam memory atau tidak.
+* Jika perintah itu tidak ada maka call error manager untuk menampilkan pesan "Bad Command".
+* Jika perintah itu ada maka, call disk manager untuk mengaktifkan drive A. A:\>.
+* Jika drive a tidak aktif maka, call error manager untuk menampilkan pesan kesalahan "Disk not Ready".
+* Jika disk A aktif maka, check keberadaan file1.txt di disket dalam drive A.
+* Jika file1.txt tidak ada maka, call error manager untuk menampilkan pesan "File not Found".
+* Jika file1.txt ada maka, load file1.txt ke memori.
+* Call memori manager untuk mencari tempat di memory untuk menampung file1.txt dan menempatkan pada space yang ada.
+* Call command interpreter untuk check argument berikutnya (*>*),
+* Jika argument berikutnya tidak sama dengan  ">" maka call error manager untuk menampilkasn pesan "Argument is not Match".
+* Jika argument berikutnya sama dengan ">" maka, call Command interpreter untuk mengecek argument "prn".
+* Jika argument tidak sama dengan "prn" maka, call error manager akan menampilkas pesan kesalahan "Argument is not Match".
+* Jika argument berikutnya sama dengan "prn" maka call printer manager untuk mengecek apakah printer aktif.
+* Jika printer tidak aktif maka, call error manager akan menampilkasn pesan kesalahan "Printer is not Ready".
+* Jika printer aktif maka, call printer manager untuk mengecek apakah kertas ada atau tidak.
+* Jika kertas ada maka, call memory untuk memindahkan isi dari file1.txt dari memori ke buffer printer.
+* Printer akan mengambil per karakter dari buffer dan melakukan pencetakan sampai selesai pada karakter terakhir dari file1.txt.
+* Setelah semua kegiatan selesai maka call command interpreter akan menampilkan A:\>.
+
+<p align="center"><img src="gambar/3.jpg" alt="Gambar Pelaksanaan Eksekusi pada MS-DOS (a) Pada saat Startup (b) Pada Saat Running" width="500px">
+
+        Gambar Pelaksanaan Eksekusi pada MS-DOS (a) Pada saat Startup (b) Pada Saat Running
+
+<p align="center"><img src="gambar/4.jpg" alt="Gambar Unix Menjalankan Lebih dari Satu Proses" width="300px">
+
+        Gambar Unix Menjalankan Lebih dari Satu Proses
+
+### Manipulasi Device
+Pada sistem call dalam hal manipulasi device, hal-hal yang dilakukan adalah:
+* Meminta dan Membebaskan device,
+* Membaca, menulis dan mereposisi device,
+* Menentukan dan mengeset atribut device.
+
+### Informasi Lingkungan
+Pada sistem call dalam hal informasi lingkungan, hal-hal yang dilakukan adalah:
+* Mengambil atau mengeset waktu dan tanggal,
+* Mengambil atau mengeset sistem data,
+* Mengambil atau mengeset proses, file atau atribut-atribut device.
+
+### Komunikasi
+Sistem call juga dapat melakukan hal-hal yang berhubungan dengan komunikasi seperti:
+* Membuat dan menghapus sambungan komunikasi,
+* Mengirim dan menerima pesan,
+* Mentransfer status informasi.
+
+### Pada komunikasi terdapat dua model komunikasi, yaitu:
+* Message-Passing model: Informasi saling dilakukan melalui fasilitas yang telah ditentukan oleh sistem operasi.
+
+<p align="center"><img src="gambar/5.jpg" alt="Gambar Model Komunikasi Message Passing" width="400px">
+
+        Gambar Model Komunikasi "Message Passing"
+
+* Shared-Memori Model: Proses-proses yang menggunakan map memori untuk mengakses daerah-daerah di memori dengan proses-proses yang lain
+
+<p align="center"><img src="gambar/6.jpg" alt="Gambar Model Komunikasi Shared-Memory" width="400px">
+
+        Gambar Model Komunikasi "Shared-Memory"
