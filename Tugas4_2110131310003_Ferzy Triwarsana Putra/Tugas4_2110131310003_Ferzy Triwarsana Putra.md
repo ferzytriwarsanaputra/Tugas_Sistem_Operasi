@@ -211,5 +211,8 @@ Metode struktur ini adalah menghilangkan komponen-komponen yang tidak diperlukan
 **Kekurangan Kernel Mikro** :
 * kinerja akan berkurang selagi bertambahnya fungsi-fungsi yang digunakan.
 
-**Contoh** : sistem operasi yang menggunakan metode ini adalah TRU64 UNIX,
-MacOSX dan QNX.
+**Contoh** : sistem operasi yang menggunakan metode ini adalah TRU 64 UNIX,
+Mac OS X dan QNX.
+
+* Struktur Mac OS X
+<p align="center"><img src="gambar/8.PNG" alt="Mac OS X" width="500px">
